@@ -16,7 +16,7 @@ public class Matrix {
 	public void setData(double[][] data) {
 		this.data = data;
 		this.nrows = data.length;
-		this.ncols = data[0].length;
+		this.ncols = data[0].length;//comment
 	}
 
 	public Matrix(int nrow, int ncol) {
