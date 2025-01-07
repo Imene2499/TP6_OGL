@@ -19,7 +19,7 @@ public class Matrix {
 		this.ncols = data[0].length;//comment
 	}
 
-	public Matrix(int nrow, int ncol) {
+	public Matrix(int nrow, int ncol) { // commentaire
 		this.nrows = nrow;
 		this.ncols = ncol;
 		data = new double[nrow][ncol];
